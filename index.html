@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Emre Karabey'in Sayfası</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <a href="2.Ödev/index.html" class="logo-link">
+      <video height="200" autoplay loop muted playsinline class="clean-video">
+        <source src="https://cdn-icons-mp4.flaticon.com/512/6454/6454149.mp4" type="video/mp4">
+        Tarayıcınız video etiketini desteklemiyor.
+      </video>
+    </a>
+
+    <h1>Emre Karabey'in Sayfası</h1>
+
+    <a href="2.Ödev/index.html" class="btn">2. Ödev</a>
+
+  </div>
+</body>
+
+<style>
+  body {
+    margin: 0;
+    background: linear-gradient(to bottom, #74b9ff, #ffffff);
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+  }
+
+  .clean-video {
+    mix-blend-mode: multiply; 
+  }
+
+  .logo-link {
+    transition: transform 0.3s;
+  }
+
+  .logo-link:hover {
+    transform: scale(1.1);
+  }
+
+  h1 {
+    color: #2c3e50;
+    margin: 0;
+  }
+
+  .btn {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 2px solid #3498db;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #3498db;
+    color: white;
+  }
+</style>
+
+</html>
